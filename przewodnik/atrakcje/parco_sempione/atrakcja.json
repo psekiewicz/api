@@ -1,0 +1,16 @@
+{
+  "title": "Parco Sempione",
+  "subtitle": "Park miejski w sercu Mediolanu",
+  "city": "mediolan",
+  "latitude": 45.4727,
+  "longitude": 9.1766,
+  "photo": "photo.jpg",
+  "photoCredit": "Maurizio Giuliano / Wikimedia Commons, CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/ (zmniejszone)",
+  "audio": [
+    {
+      "file": "audio.mp3",
+      "text": "Stoisz teraz w Parco Sempione, jednym z najważniejszych parków Mediolanu. Ten rozległy, zielony obszar o powierzchni prawie 39 hektarów powstał w latach 1888–1894, na miejscu dawnego placu ćwiczeń wojskowych, który rozciągał się za murami Zamku Sforzów.\n\nPark zaprojektował architekt Emilio Alemagna w stylu angielskim – z krętymi alejkami, otwartymi łąkami i malowniczymi stawami, zupełnie inaczej niż geometryczne ogrody francuskie. Miał być miejscem wypoczynku dla mieszkańców szybko rosnącego miasta.\n\nSpacerując główną osią parku, masz przed sobą jedną z najpiękniejszych perspektyw Mediolanu: z jednej strony fasadę Zamku Sforzów, z drugiej – neoklasycystyczny Łuk Pokoju, Arco della Pace.\n\nW parku znajdziesz też:\n- Akwarium Miejskie z 1906 roku – trzecie najstarsze w Europie,\n- wieżę Torre Branca, z której roztacza się widok na całe miasto,\n- Pałac Sztuki, siedzibę Triennale, gdzie odbywają się wystawy sztuki, designu i architektury.\n\nParco Sempione to dziś ulubione miejsce spotkań mieszkańców – na trawnikach można spotkać biegaczy, rodziny na pikniku i studentów. Zanim ruszysz dalej, w stronę Łuku Pokoju albo z powrotem do Zamku, warto usiąść na chwilę i odetchnąć w samym sercu Mediolanu.",
+      "voiceText": "Stoisz teraz w Parco Sempione, jednym z najważniejszych parków Mediolanu. Ten rozległy, zielony obszar o powierzchni prawie trzydziestu dziewięciu hektarów powstał w latach tysiąc osiemset osiemdziesiąt osiem – tysiąc osiemset dziewięćdziesiąt cztery, na miejscu dawnego placu ćwiczeń wojskowych, który rozciągał się za murami Zamku Sforzów.\n\nPark zaprojektował architekt Emilio Alemagna w stylu angielskim – z krętymi alejkami, otwartymi łąkami i malowniczymi stawami, zupełnie inaczej niż geometryczne ogrody francuskie. Miał być miejscem wypoczynku dla mieszkańców szybko rosnącego miasta.\n\nSpacerując główną osią parku, masz przed sobą jedną z najpiękniejszych perspektyw Mediolanu: z jednej strony fasadę Zamku Sforzów, z drugiej – neoklasycystyczny Łuk Pokoju, Arco della Pace.\n\nW parku znajdziesz też Akwarium Miejskie z tysiąc dziewięćset szóstego roku – trzecie najstarsze w Europie – wieżę Torre Branca, z której roztacza się widok na całe miasto, oraz Pałac Sztuki, siedzibę Triennale, gdzie odbywają się wystawy sztuki, designu i architektury.\n\nParco Sempione to dziś ulubione miejsce spotkań mieszkańców – na trawnikach można spotkać biegaczy, rodziny na pikniku i studentów. Zanim ruszysz dalej, w stronę Łuku Pokoju albo z powrotem do Zamku, warto usiąść na chwilę i odetchnąć w samym sercu Mediolanu."
+    }
+  ]
+}

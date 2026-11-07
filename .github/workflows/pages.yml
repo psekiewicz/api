@@ -1,0 +1,51 @@
+name: Publish API
+
+# Builds every API in this repo and publishes it on GitHub Pages at
+# https://psekiewicz.github.io/api/. Runs on each push to main.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Build Przewodnik
+        run: |
+          # Grows by one with every commit that touches przewodnik/, so the
+          # app sees new content. Starts above 7, the last Supabase version.
+          version=$(( 7 + $(git rev-list --count HEAD -- przewodnik) ))
+          node tools/build-przewodnik.mjs _site/przewodnik "$version"
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,16 @@
+{
+  "title": "Galleria Vittorio Emanuele II",
+  "subtitle": "Zabytkowy przeszklony pasaż",
+  "city": "mediolan",
+  "latitude": 45.4656,
+  "longitude": 9.1899,
+  "photo": "photo.jpg",
+  "photoCredit": "Ugodiamante / Wikimedia Commons, CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/ (zmniejszone)",
+  "audio": [
+    {
+      "file": "audio.mp3",
+      "text": "Wchodzisz teraz do Galleria Vittorio Emanuele II – przeszklonego pasażu handlowego, który łączy plac przy katedrze z placem przed Teatrem La Scala. To najstarsza czynna galeria handlowa we Włoszech, otwarta w 1867 roku i ukończona dziesięć lat później.\n\nProjekt stworzył architekt Giuseppe Mengoni, który połączył dwie krzyżujące się, przeszklone arkady w kształcie krzyża, z ośmiobocznym placem pośrodku. Centralna kopuła z żelaza i szkła wznosi się na wysokość 47 metrów – w chwili budowy była to jedna z najbardziej nowoczesnych konstrukcji w Europie, symbol ambicji młodego, zjednoczonego państwa.\n\nNazwa galerii upamiętnia pierwszego króla zjednoczonych Włoch, Wiktora Emanuela II. Niestety, sam architekt, Mengoni, zginął tragicznie – spadł z rusztowania tuż przed uroczystym ukończeniem budowy i nigdy nie zobaczył gotowego dzieła.\n\nNa posadzce pod centralną kopułą znajdziesz mozaikę z bykiem – herbem Turynu. Tradycja każe stanąć na niej piętą i obrócić się trzykrotnie wokół własnej osi, co podobno przynosi szczęście.\n\nDziś w galerii mieszczą się eleganckie butiki, kawiarnie i restauracje, w tym słynna kawiarnia Camparino, której historia sięga 1867 roku. Mediolańczycy nazywają tę galerię „salonem Mediolanu” – to tutaj miasto od ponad 150 lat spotyka się i robi zakupy.",
+      "voiceText": "Wchodzisz teraz do Galleria Vittorio Emanuele Drugiego – przeszklonego pasażu handlowego, który łączy plac przy katedrze z placem przed Teatrem La Scala. To najstarsza czynna galeria handlowa we Włoszech, otwarta w tysiąc osiemset sześćdziesiątym siódmym roku i ukończona dziesięć lat później.\n\nProjekt stworzył architekt Giuseppe Mengoni, który połączył dwie krzyżujące się, przeszklone arkady w kształcie krzyża, z ośmiobocznym placem pośrodku. Centralna kopuła z żelaza i szkła wznosi się na wysokość czterdziestu siedmiu metrów – w chwili budowy była to jedna z najbardziej nowoczesnych konstrukcji w Europie, symbol ambicji młodego, zjednoczonego państwa.\n\nNazwa galerii upamiętnia pierwszego króla zjednoczonych Włoch, Wiktora Emanuela Drugiego. Niestety, sam architekt, Mengoni, zginął tragicznie – spadł z rusztowania tuż przed uroczystym ukończeniem budowy i nigdy nie zobaczył gotowego dzieła.\n\nNa posadzce pod centralną kopułą znajdziesz mozaikę z bykiem – herbem Turynu. Tradycja każe stanąć na niej piętą i obrócić się trzykrotnie wokół własnej osi, co podobno przynosi szczęście.\n\nDziś w galerii mieszczą się eleganckie butiki, kawiarnie i restauracje, w tym słynna kawiarnia Camparino, której historia sięga tysiąc osiemset sześćdziesiątego siódmego roku. Mediolańczycy nazywają tę galerię „salonem Mediolanu” – to tutaj miasto od ponad stu pięćdziesięciu lat spotyka się i robi zakupy."
+    }
+  ]
+}

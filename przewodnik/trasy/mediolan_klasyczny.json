@@ -1,0 +1,31 @@
+{
+  "city": "mediolan",
+  "title": "Klasyczny Mediolan",
+  "subtitle": "Od katedry do Łuku Pokoju",
+  "text": "Spacer przez historyczne centrum: od katedry Duomo przez Galerię Vittorio Emanuele II do Zamku Sforzów, a dalej przez Parco Sempione aż do Łuku Pokoju. Przy każdym przystanku możesz posłuchać nagrania.",
+  "stops": [
+    "duomo_di_milano",
+    "galleria_vittorio_emanuele",
+    "castello_sforzesco",
+    "parco_sempione",
+    "arco_della_pace"
+  ],
+  "legs": [
+    {
+      "meters": 360,
+      "path": "quntGkebw@nALAxEqEl@kD??`@@G"
+    },
+    {
+      "meters": 1105,
+      "path": "__otG{{aw@ArCFJAzABBC`CBzEKdCg@vBwLfR?hAUVAJMHcB`CcExDgDzEMs@"
+    },
+    {
+      "meters": 415,
+      "path": "g~otG{z_w@Lr@cDzEuAVgA?q@^_@d@_@|@y@xAf@hARK"
+    },
+    {
+      "meters": 600,
+      "path": "kkptGwh_w@SJg@iAk@hAeAWMKg@fCi@rAOxAMh@c@`@aAFa@h@]z@oAl@C~HEI]P"
+    }
+  ]
+}

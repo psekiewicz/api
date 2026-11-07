@@ -1,0 +1,51 @@
+[
+  {
+    "id": "mediolan",
+    "name": "Mediolan",
+    "latitude": 45.465645,
+    "longitude": 9.185057,
+    "zoom": 15
+  },
+  {
+    "id": "como",
+    "name": "Como",
+    "latitude": 45.8081,
+    "longitude": 9.0852,
+    "zoom": 15
+  },
+  {
+    "id": "bari",
+    "name": "Bari",
+    "latitude": 41.1171,
+    "longitude": 16.8719,
+    "zoom": 15
+  },
+  {
+    "id": "matera",
+    "name": "Matera",
+    "latitude": 40.6664,
+    "longitude": 16.6043,
+    "zoom": 15
+  },
+  {
+    "id": "alberobello",
+    "name": "Alberobello",
+    "latitude": 40.784,
+    "longitude": 17.2375,
+    "zoom": 15
+  },
+  {
+    "id": "valletta",
+    "name": "Valletta",
+    "latitude": 35.8989,
+    "longitude": 14.5146,
+    "zoom": 15
+  },
+  {
+    "id": "gozo",
+    "name": "Gozo",
+    "latitude": 36.0444,
+    "longitude": 14.2394,
+    "zoom": 15
+  }
+]

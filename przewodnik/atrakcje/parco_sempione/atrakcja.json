@@ -6,6 +6,9 @@
   "longitude": 9.1766,
   "photo": "photo.jpg",
   "photoCredit": "Maurizio Giuliano / Wikimedia Commons, CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/ (zmniejszone)",
+  "practical": [
+    { "kind": "entry", "text": "Park jest otwarty w dzień, wstęp wolny; zamykany na noc." }
+  ],
   "audio": [
     {
       "file": "audio.mp3",

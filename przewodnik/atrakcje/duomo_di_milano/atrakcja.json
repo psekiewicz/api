@@ -7,6 +7,14 @@
   "photo": "photo.jpg",
   "photoCredit": "Jakub Hałun / Wikimedia Commons, CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/ (zmniejszone)",
   "marker": "marker.png",
+  "practical": [
+    { "kind": "listen", "text": "Część 1 i 3 słuchasz na placu przed katedrą, część 2 w środku." },
+    {
+      "kind": "entry",
+      "text": "Wnętrze i tarasy: wstęp płatny.",
+      "link": { "label": "Bilety i godziny na duomomilano.it", "url": "https://www.duomomilano.it/" }
+    }
+  ],
   "audio": [
     {
       "file": "part1.mp3",

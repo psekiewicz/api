@@ -13,7 +13,12 @@ Sources in `przewodnik/`:
 - `miasta.json` - cities (`id`, `name`, `latitude`, `longitude`, `zoom`).
 - `atrakcje/<id>/atrakcja.json` - one folder per place, with its photo,
   optional marker and mp3 files next to it. The folder name is the id.
+  Optional `practical`: the "Na miejscu" lines, each `kind` (`listen` or
+  `entry`), `text` and an optional `link` (`label`, `url`).
 - `trasy/<id>.json` - routes: `stops` are attraction ids, `legs` one fewer.
+- `wyjazdy.json` - trips the app's start screen lists (`id`, `title`,
+  `subtitle`, `locations` = city ids, `offerUrl`, optional `cover` =
+  attraction id). A city with no attractions yet shows as "w przygotowaniu".
 - `ustawienia.json` - `minAppVersionCode`.
 
 ### Adding a place

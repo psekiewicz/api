@@ -6,6 +6,10 @@
   "longitude": 9.1899,
   "photo": "photo.jpg",
   "photoCredit": "Ugodiamante / Wikimedia Commons, CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/ (zmniejszone)",
+  "practical": [
+    { "kind": "listen", "text": "Słuchasz w pasażu, najlepiej pod centralną kopułą." },
+    { "kind": "entry", "text": "Pasaż jest otwarty, wstęp wolny." }
+  ],
   "audio": [
     {
       "file": "audio.mp3",

@@ -1,0 +1,39 @@
+[
+  {
+    "id": "mediolan_como",
+    "title": "Mediolan i Jezioro Como",
+    "subtitle": "Wyjazd grupowy",
+    "locations": ["mediolan", "como"],
+    "offerUrl": "https://wczasybezkasy.pl/wyjazdygrupowe/",
+    "cover": "galleria_vittorio_emanuele"
+  },
+  {
+    "id": "san_siro",
+    "title": "Mecz na San Siro",
+    "subtitle": "Wyjazd meczowy do Mediolanu",
+    "locations": ["mediolan"],
+    "offerUrl": "https://wczasybezkasy.pl/san-siro/",
+    "cover": "arco_della_pace"
+  },
+  {
+    "id": "apulia",
+    "title": "Świąteczna Apulia",
+    "subtitle": "Wyjazd grupowy",
+    "locations": ["bari", "matera", "alberobello"],
+    "offerUrl": "https://wczasybezkasy.pl/swiateczna-apulia/"
+  },
+  {
+    "id": "malta",
+    "title": "Malta zimą",
+    "subtitle": "Wyjazd grupowy",
+    "locations": ["valletta", "gozo"],
+    "offerUrl": "https://wczasybezkasy.pl/wyjazdygrupowe/"
+  },
+  {
+    "id": "rzym",
+    "title": "Rzym",
+    "subtitle": "Wyjazd grupowy",
+    "locations": ["rzym"],
+    "offerUrl": "https://wczasybezkasy.pl/wyjazdygrupowe/"
+  }
+]

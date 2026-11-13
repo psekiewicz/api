@@ -6,6 +6,14 @@
   "longitude": 9.1795,
   "photo": "photo.jpg",
   "photoCredit": "Jakub Hałun / Wikimedia Commons, CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/ (zmniejszone)",
+  "practical": [
+    { "kind": "listen", "text": "Słuchasz przed bramą główną i na dziedzińcu." },
+    {
+      "kind": "entry",
+      "text": "Dziedzińce: wstęp wolny. Muzea w zamku: płatne.",
+      "link": { "label": "Godziny i bilety na milanocastello.it", "url": "https://www.milanocastello.it/" }
+    }
+  ],
   "audio": [
     {
       "file": "audio.mp3",

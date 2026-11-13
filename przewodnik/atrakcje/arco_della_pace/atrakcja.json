@@ -7,6 +7,9 @@
   "photo": "photo.jpg",
   "photoCredit": "Dega180 / Wikimedia Commons, domena publiczna (CC0)",
   "marker": "marker.png",
+  "practical": [
+    { "kind": "listen", "text": "Oglądasz z zewnątrz, z placu Sempione." }
+  ],
   "audio": [
     {
       "file": "audio.mp3",

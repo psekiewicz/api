@@ -47,5 +47,12 @@
     "latitude": 36.0444,
     "longitude": 14.2394,
     "zoom": 15
+  },
+  {
+    "id": "rzym",
+    "name": "Rzym",
+    "latitude": 41.8986,
+    "longitude": 12.4769,
+    "zoom": 15
   }
 ]

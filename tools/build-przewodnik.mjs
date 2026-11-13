@@ -59,6 +59,10 @@ for (const id of list(join(SRC, 'atrakcje'))) {
     if (a[key] === undefined) problems.push(`${where}: "${key}" is missing`);
   }
   if (a.city !== undefined && !cityIds.has(a.city)) problems.push(`${where}: no city "${a.city}" in miasta.json`);
+  for (const line of a.practical ?? []) {
+    if (!line.text) problems.push(`${where}: a "practical" line has no "text"`);
+    if (line.kind !== 'listen' && line.kind !== 'entry') problems.push(`${where}: "practical" kind is "listen" or "entry"`);
+  }
   if (a.photo) addFile(id, a.photo);
   if (a.marker) addFile(id, a.marker);
   for (const part of a.audio ?? []) {
@@ -85,6 +89,22 @@ for (const name of list(join(SRC, 'trasy')).filter((n) => n.endsWith('.json'))) 
   routes.push({ id, ...r });
 }
 
+// Trips: what the company sells, each a list of the cities its guides cover. A city without
+// attractions yet shows in the app as "w przygotowaniu".
+const trips = readJson(join(SRC, 'wyjazdy.json')) ?? [];
+const tripIds = new Set();
+for (const t of trips) {
+  const where = `wyjazdy.json: trip "${t.id}"`;
+  if (!t.id || tripIds.has(t.id)) problems.push(`${where}: "id" is missing or used twice`);
+  tripIds.add(t.id);
+  if (!t.title) problems.push(`${where}: "title" is missing`);
+  if (!(t.locations ?? []).length) problems.push(`${where}: "locations" needs at least one city`);
+  for (const city of t.locations ?? []) {
+    if (!cityIds.has(city)) problems.push(`${where}: no city "${city}" in miasta.json`);
+  }
+  if (t.cover !== undefined && !attractionIds.has(t.cover)) problems.push(`${where}: no attraction "${t.cover}" for "cover"`);
+}
+
 if (problems.length) {
   console.error(`Przewodnik: ${problems.length} problem(s):\n- ${problems.join('\n- ')}`);
   process.exit(1);
@@ -92,6 +112,7 @@ if (problems.length) {
 
 const content = {
   contentVersion,
+  trips,
   cities,
   attractions,
   routes,
@@ -99,4 +120,4 @@ const content = {
   files,
 };
 writeFileSync(join(out, 'content.json'), JSON.stringify(content, null, 2) + '\n');
-console.log(`Przewodnik v${contentVersion}: ${cities.length} cities, ${attractions.length} attractions, ${routes.length} routes, ${Object.keys(files).length} files`);
+console.log(`Przewodnik v${contentVersion}: ${trips.length} trips, ${cities.length} cities, ${attractions.length} attractions, ${routes.length} routes, ${Object.keys(files).length} files`);
